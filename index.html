@@ -31,5 +31,37 @@
         <a href="#" class="btn">Our Manu</a>
       </div>
     </section>
+    <section class="about" id="about">
+      <div class="row">
+        <div class="col50">
+          <h2 class="titleText"><span>A</span>bout us</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+            repudiandae error quam, quos distinctio quibusdam, itaque quaerat
+            odio veritatis magni maiores eius quod nesciunt commodi quia
+            tenetur! Ipsum, earum praesentium exercitationem natus nemo
+            quibusdam culpa ipsa. <br />
+            <br />
+            Perferendis nemo hic aut accusamus beatae neque corrupti tenetur
+            perspiciatis porro magni modi, eius, nihil incidunt corporis,
+            praesentium blanditiis? Cumque ducimus earum eveniet sapiente!
+            Quaerat, omnis facere! Omnis quas dolorem laudantium nihil
+            similique, ea aliquam assumenda!
+          </p>
+        </div>
+        <div class="col50">
+          <div class="imgBx">
+            <img src="./img1.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script type="text/javascript">
+      window.adddEventlistener("scroll", function () {
+        const header = document.querySelector("header");
+        header.classlist.toggle("sticky", window.scrollY > 0);
+      });
+    </script>
   </body>
 </html>
