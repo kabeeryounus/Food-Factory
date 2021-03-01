@@ -353,3 +353,15 @@ section {
   border: none;
   cursor: pointer;
 }
+
+.copyrightText {
+  padding: 8px 40px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  text-align: center;
+  text-decoration: none;
+}
+
+.copyrightText span {
+  color: #ff0157;
+  text-transform: uppercase;
+}
