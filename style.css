@@ -17,7 +17,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url(bg.jpg);
+  background: url("./img/bg.jpg");
   background-size: cover;
 }
 
@@ -238,7 +238,7 @@ section {
 }
 
 .testimonials {
-  background: url(./bg2.jpg);
+  background: url("./img/bg2.jpg");
   background-size: cover;
 }
 
@@ -302,7 +302,7 @@ section {
 }
 
 .contact {
-  background: url(./bg3.jpg);
+  background: url("./img/bg3.jpg");
   background-size: cover;
 }
 
